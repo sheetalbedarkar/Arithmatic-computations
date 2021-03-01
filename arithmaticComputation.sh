@@ -1,3 +1,7 @@
+#!/bin/bash -x
+
 echo "Enter the three inputs :: "
 read a b c
-echo "The three inputs are : " $a $b $c
+
+result1=$(($a+$b*$c))
+echo $result1
